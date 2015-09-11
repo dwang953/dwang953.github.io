@@ -187,8 +187,8 @@ section.contact {
 }
 
 #portfolio {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/matthews.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 

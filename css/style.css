@@ -196,12 +196,13 @@ section.contact {
     margin: 0 0 15px;
     font-family: 'Open Sans', sans-serif;
     color: #E0E0E0 ; 
+    position:center;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: center;
-    margin: 5px auto;
+    margin: center;
     max-width: 300px;
     color: #E0E0E0 ; 
 }
@@ -454,6 +455,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    position:center;
 }
 
 .portfolio-modal .modal-content h2 {

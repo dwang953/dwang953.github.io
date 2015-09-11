@@ -215,7 +215,7 @@ section.contact {
     -webkit-transition: all ease .1s;
     -moz-transition: all ease .1s;
     transition: all ease .1s;
-    color: white; 
+    color: #E0E0E0 ; 
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -230,8 +230,8 @@ section.contact {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
-        
+    color: #E0E0E0 ; 
+       
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {

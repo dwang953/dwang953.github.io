@@ -186,6 +186,11 @@ section.contact {
     }
 }
 
+#portfolio {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -235,7 +240,6 @@ section.contact {
 }
 
 #portfolio * {
-    opacity: 0.8;
     z-index: 2;
 }
 

@@ -200,9 +200,8 @@ section.contact {
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
-    position: center;
+    position: relative;
     margin: 5px auto;
-    max-width: 800px;
     color: #E0E0E0 ; 
 }
 

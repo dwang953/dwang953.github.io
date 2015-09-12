@@ -363,6 +363,28 @@
                 </div>
             </div>
         </div>
+        
+        
+        <script type="text/javascript">
+        $(document).ready(function(){
+            /* Get iframe src attribute value i.e. YouTube video url
+            and store it in a variable */
+            var url = $("#cartoonVideo").attr('src');
+            
+            /* Assign empty url value to the iframe src attribute when
+            modal hide, which stop the video playing */
+            $("#myModal").on('hide.bs.modal', function(){
+                $("#cartoonVideo").attr('src', '');
+            });
+            
+            /* Assign the initially stored url back to the iframe src
+            attribute when modal is displayed again */
+            $("#myModal").on('show.bs.modal', function(){
+                $("#cartoonVideo").attr('src', url);
+            });
+        });
+        </script>
+        
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -377,10 +399,11 @@
                             <div class="modal-body">
                                 <h2>Remote-Controlled ATV</h2>
                                 <br>
-                                <!-- 16:9 aspect ratio -->
-                                <div class="embed-responsive embed-responsive-16by9">
-                                  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=VOZmUMjX38w"></iframe>
+                                <div class="modal-body">
+                                    <iframe id="cartoonVideo" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
                                 </div>
+                                
+                                
                                 <h3>Description</h3>
                                 <p>Working on a team of four mechanical engineers, I designed and constructed an ATV using two AC motors from an electric screwdriver and other custom fabricated parts. Our design is based on a two-wheel drive system positioned in the front and back of the ATV, allowing for a zero degree turn radius. The drive wheels were connected to two larger wheels by treads to traverse obstacles that required climbing. Both drive wheels were powered by a gear train involving 24, 44, and 96-teeth gears, designed in a lateral assembly with a 1:128 gear ratio. A high gear ratio was selected in order to maximize the torque of the system, which would later prove to be beneficial for scaling the ramp and other obstacles on the competition course. The original design for the block and unhitching mechanism involved a “push-cart” design, although this method was eliminated in later design iterations due to logistical problems with climbing the ramp. The final design called for placing the block on top of the ATV, which stabilized the vehicle’s center of mass, and allowed for a successful performance at the competition.</p>
                                 <ul class="list item-details">
@@ -389,7 +412,7 @@
                                         <strong>February 2014 - May 2014
                                         </strong>
                                     </li>
-                                    <a href="/files/Backwards Beluga, Harvard - Specs.pdf" class="btn btn-info btn-lg">Full Design/Specifications Documentation</a>
+                                    <center><a href="personal-website/files/Backwards Beluga, Harvard - Specs.pdf" class="btn">Full Design/Specifications Documentation</a></center>
                                 </ul>
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>

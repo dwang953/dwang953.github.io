@@ -539,6 +539,11 @@ footer .footer-below {
     position:center;
 }
 
+.work-modal .modal-content img {
+    margin-bottom: 30px;
+    position:center;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }

@@ -14,21 +14,6 @@ body {
     min-height: 100%;
 }
 
-background {
-    height:750px;
-    width:120%;
-    text-align:center;
-    background:url("../img/bg/matthews.jpg") no-repeat center;
-    background-size:cover;
-    -webkit-filter: blur(13px);
-    -moz-filter: blur(13px);
-    -o-filter: blur(13px);
-    -ms-filter: blur(13px);
-    filter: blur(13px);
-    position: absolute;
-    left:0;
-    top: 0;
-}
 
 
 p {
@@ -70,13 +55,13 @@ h6 {
 header {
     text-align: center;
     color: #ffffff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/matthews.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), filter: blur(13px), url("../img/bg/matthews.jpg"); 
     background-attachment: fixed;
-    -webkit-filter: blur(13px);
+ /*   -webkit-filter: blur(13px);
     -moz-filter: blur(13px);
     -o-filter: blur(13px);
     -ms-filter: blur(13px);
-    filter: blur(13px);
+    filter: blur(13px); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

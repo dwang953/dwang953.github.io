@@ -50,7 +50,11 @@ h6 {
 
 .img-circle {
     border-radius: 50%;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
 }
+
 
 header {
     text-align: center;
@@ -66,38 +70,6 @@ header {
     background-size: cover;
     background-position: center center;
 }
-
-
-.shadow {
-  display: inline-block;
-  position: relative;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
-  box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
-}
-.shadow:hover {
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
-  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
-}
-.shadow img {
-  max-width: 100%;
-  position: relative;
-  z-index: -1;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-
-
-
 
 
 header .container {

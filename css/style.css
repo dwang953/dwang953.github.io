@@ -55,7 +55,7 @@ h6 {
 header {
     text-align: center;
     color: #ffffff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), filter: blur(13px), url("../img/bg/matthews.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/matthews.jpg"); 
     background-attachment: fixed;
  /*   -webkit-filter: blur(13px);
     -moz-filter: blur(13px);
@@ -66,6 +66,20 @@ header {
     background-size: cover;
     background-position: center center;
 }
+
+.background-image {
+  background-image: url("../img/bg/matthews.jpg");
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+
 
 header .container {
     padding-top: 50px;

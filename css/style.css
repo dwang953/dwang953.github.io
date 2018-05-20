@@ -59,7 +59,7 @@ box-shadow: inset 3px 3px 4px #000;
 header {
     text-align: center;
     color: #ffffff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/matthews2.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/space.jpg"); 
     background-attachment: fixed;
  /*   -webkit-filter: blur(13px);
     -moz-filter: blur(13px);

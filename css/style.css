@@ -85,12 +85,12 @@ header img {
 header .intro-text .name {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: normal;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
 }

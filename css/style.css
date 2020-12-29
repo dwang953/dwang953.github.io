@@ -59,16 +59,14 @@ box-shadow: inset 3px 3px 4px #000;
 header {
     text-align: center;
     color: #000000;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); 
     background-attachment: fixed;
  /*   -webkit-filter: blur(13px);
     -moz-filter: blur(13px);
     -o-filter: blur(13px);
     -ms-filter: blur(13px);
-    filter: blur(13px); */
-    background-repeat: no-repeat;
+    filter: blur(13px); 
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 
